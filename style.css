@@ -1,0 +1,137 @@
+body{
+  
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #FF7B54;
+    
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  
+    background-color: #FFB26B;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+      position: relative;
+      top: 8px;
+    text-align: end;
+    position: relative;
+    right: 18px;
+    margin-left: 32px;
+    float: right;
+    font-family: 'Righteous', cursive;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  :root{
+    --color: #939B62;
+  }
+  .topnav a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 0.3em;
+    width: 0%;
+    background-color: var(--color);
+    bottom: 5px;
+    transition: all ease-out 300ms
+  }
+  .topnav:first-child{
+    margin-right: auto;
+    
+  }
+   a:hover::after{
+    width: 62%;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    transition: all ease-out 500ms;
+    color: #939B62;
+  }
+  #rollo-icon{
+      background-color: #FFD56B;
+      text-align: center;
+  }
+  #rollo{
+  
+     height: 60px;
+      
+  }
+ h1{
+     margin-top: 4em;
+    font-size: 48px;
+     color: white;
+     position: relative;
+     margin-left: 32px;
+     text-align: start;
+ }
+ .h1-color{
+   color: #FFD56B;
+ }
+
+ .paragrafo{
+   
+   font-family: 'Mulish', sans-serif;
+  margin-left: 32px;
+   text-align: start;
+   color: white;
+   font-size: 20px;
+
+ }
+ #paraph-div{
+   border-radius: 8px;
+   width: fit-content;
+   
+ }
+ .enoij{
+   margin-bottom: 16px;
+   font-family: 'Righteous', cursive;;
+   color: #FFD56B;
+   font-style: unset;
+  font-size: 28px;
+ }
+.div1{
+
+  position: relative;
+  height: 25em;
+}
+.home{
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 2em;
+}.home:hover{
+  transition: all ease-out 400ms;
+  color: #FFD56B;
+}
+.home::after{
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0.1em;
+  width: 0%;
+  background-color: #FFD56B;
+  bottom: 2.1em;
+  transition: all ease-out 350ms
+}
+.home:first-child{
+  margin-right: auto;
+}
+
+.home:hover::after{
+  width: 2.9em;
+}
+
+
+.hr1{
+  border-width: 2px;
+  position: relative;
+  float: left;
+  width: 140px;
+  bottom: 1.6em;
+}
