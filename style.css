@@ -7,17 +7,20 @@ body{
     
 }
 
-/* Add a black background color to the top navigation */
+
+
 .topnav {
-  
+  position: fixed;
+  width: 100%;
     background-color: #FFB26B;
     overflow: hidden;
+    padding: 20px 0;
+    margin: 0;
+    
   }
   
-  /* Style the links inside the navigation bar */
+ 
   .topnav a {
-      position: relative;
-      top: 8px;
     text-align: end;
     position: relative;
     right: 18px;
@@ -49,7 +52,7 @@ body{
    a:hover::after{
     width: 62%;
   }
-  /* Change the color of links on hover */
+ 
   .topnav a:hover {
     transition: all ease-out 500ms;
     color: #939B62;
@@ -59,12 +62,13 @@ body{
       text-align: center;
   }
   #rollo{
-  
-     height: 60px;
+    position: absolute;
+     height: 80px;
+     bottom: 1px;
       
   }
  h1{
-     margin-top: 4em;
+     
     font-size: 48px;
      color: white;
      position: relative;
@@ -75,6 +79,9 @@ body{
    color: #FFD56B;
  }
 
+.about{
+  margin-top: 20em;
+}
  .paragrafo{
    
    font-family: 'Mulish', sans-serif;
@@ -86,7 +93,7 @@ body{
  }
  #paraph-div{
    border-radius: 8px;
-   width: fit-content;
+   height: fit-content;
    
  }
  .enoij{
@@ -96,42 +103,92 @@ body{
    font-style: unset;
   font-size: 28px;
  }
-.div1{
 
-  position: relative;
-  height: 25em;
+.tabacco-img{
+  background-color: var(--color);
+  height: fit-content;
 }
-.home{
+
+.about-text{
   position: absolute;
-  bottom: 0px;
-  margin-bottom: 2em;
-}.home:hover{
-  transition: all ease-out 400ms;
+  top: 1px;
+}
+.about{
+  position: absolute;
+ margin-top: 3%;
+}
+
+
+#portatabacco-h1{
+  position: absolute;
+  
+  text-align: end;
+  top: 120px;
+   right: 68%;
+}#portatabacco-h1:hover{
+  transition: all ease-out 600ms;
   color: #FFD56B;
 }
-.home::after{
-  content: "";
-  position: absolute;
-  display: block;
-  height: 0.1em;
-  width: 0%;
-  background-color: #FFD56B;
-  bottom: 2.1em;
-  transition: all ease-out 350ms
-}
-.home:first-child{
+#portatabacco-h1:first-child{
   margin-right: auto;
 }
-
-.home:hover::after{
-  width: 2.9em;
+#portatabacco-h1::after{
+  content: "";
+  bottom: 8px;
+  position: relative;
+  display: block;
+  height: 6px;
+  width: 00%;
+  background-color:#FFD56B;
+  transition: all ease-out 500ms;
+}
+#portatabacco-h1:hover::after{
+  width: 100%;
+  
+}
+.portatabacco{
+  margin-top: 12%;
+}
+.about-text{
+  position: relative;
+  
+}.about-text:hover{
+  transition: all ease-out 500ms;
+  color: #FFD56B;
 }
 
-
-.hr1{
-  border-width: 2px;
-  position: relative;
-  float: left;
-  width: 140px;
-  bottom: 1.6em;
+#product{
+  
+  font-display: center;
+  color: white;
+  position: absolute;
+  display:block;
+  font-size: 16px;
+}
+#product:hover{
+  color: white;
+}
+.paragrafo2{
+  top: 10%;
+  font-family: 'Mulish', sans-serif;
+   color: white;
+   font-size: 20px;
+}
+#creator-img{
+  position: absolute;
+  margin-left: 12px;
+  border-radius: 16em;
+  height: 200px;
+}
+.creator{
+  margin-left: 32px;
+  
+}
+.creator-text{
+  
+  right: 32px;
+  font-size: 32px;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  
 }
