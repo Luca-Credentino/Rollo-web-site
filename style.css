@@ -121,12 +121,11 @@ body{
 
 #portatabacco-h1{
   position: absolute;
-  
   text-align: end;
   top: 120px;
-   right: 68%;
+   right: 79%;
 }#portatabacco-h1:hover{
-  transition: all ease-out 600ms;
+  transition: all ease-out 550ms;
   color: #FFD56B;
 }
 #portatabacco-h1:first-child{
@@ -140,23 +139,70 @@ body{
   height: 6px;
   width: 00%;
   background-color:#FFD56B;
-  transition: all ease-out 500ms;
+  transition: all ease-out 550ms;
 }
 #portatabacco-h1:hover::after{
   width: 100%;
   
 }
-.portatabacco{
+.portatabacco1{
+  opacity: 0.8;
   margin-top: 12%;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+.portatabacco1:hover{
+  opacity: 10;
+  transition: all ease-out 400ms;
 }
 .about-text{
   position: relative;
   
-}.about-text:hover{
-  transition: all ease-out 500ms;
-  color: #FFD56B;
 }
+.about-text::after{
+  content: "";
+  bottom: 8px;
+  position: relative;
+  display: block;
+  height: 6px;
+  width: 00%;
+  background-color:#FFD56B;
+  transition: all ease-out 550ms;
+}
+.about-text:last-child{
+  margin-right: auto;
+}
+.about-text:hover{
+  transition: all ease-out 550ms;
+  color: #FFD56B;
+}.about-text:hover::after{
+  width: 32%;
+}
+.portatabacco2{
+  opacity: 0.8;
+  margin-bottom: 16px;
+  
+}.portatabacco2:hover{
+  transition: all ease-out 400ms;
+  opacity: 10;
+}
+.portatabacco3{
+  opacity: 0.8;
+  margin-bottom: 16px;
+  margin-right: 16px;
 
+}.portatabacco3:hover{
+  transition: all ease-out 400ms;
+  opacity: 10;
+}
+.portatabacco4{
+  opacity: 0.8;
+  margin-bottom: 16px;
+}.portatabacco4:hover{
+  
+  opacity: 10;
+  transition: all ease-out 400ms;
+}
 #product{
   
   font-display: center;
@@ -175,20 +221,38 @@ body{
    font-size: 20px;
 }
 #creator-img{
-  position: absolute;
-  margin-left: 12px;
+  position: relative;
   border-radius: 16em;
+  right: 16px;
+  bottom: 16px;
   height: 200px;
 }
 .creator{
-  margin-left: 32px;
+  position: absolute;
+  margin-left: 12px;
+
+}
+.creator{
+  position: absolute;
+  left: 86%;
   
 }
 .creator-text{
+  position: relative;
   
-  right: 32px;
   font-size: 32px;
   color: white;
   font-family: 'Mulish', sans-serif;
   
+}
+.paragrafo2{
+position: relative;
+text-decoration: 0;
+bottom: 2px;
+}
+.paragrafo2:hover{
+  border-radius: 5px;
+  background-color: grey;
+  transition: all ease-out 700ms;
+ 
 }
