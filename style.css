@@ -1,8 +1,7 @@
 body{
-  
+  width: fit-content;
     font-family: 'Righteous', cursive;
-    margin: 0;
-    padding: 0;
+   margin: 0;
     background-color: #FF7B54;
     
 }
@@ -88,7 +87,7 @@ body{
   margin-left: 32px;
    text-align: start;
    color: white;
-   font-size: 20px;
+   font-size: 24px;
 
  }
  #paraph-div{
@@ -101,7 +100,7 @@ body{
    font-family: 'Righteous', cursive;;
    color: #FFD56B;
    font-style: unset;
-  font-size: 28px;
+  font-size: 32px;
  }
 
 .tabacco-img{
@@ -114,8 +113,7 @@ body{
   top: 1px;
 }
 .about{
-  position: absolute;
- margin-top: 3%;
+ margin-top: 4%;
 }
 
 
@@ -157,6 +155,7 @@ body{
 }
 .about-text{
   position: relative;
+  width: fit-content;
   
 }
 .about-text::after{
@@ -176,7 +175,7 @@ body{
   transition: all ease-out 550ms;
   color: #FFD56B;
 }.about-text:hover::after{
-  width: 32%;
+  width: 100%;
 }
 .portatabacco2{
   opacity: 0.8;
@@ -227,19 +226,17 @@ body{
   bottom: 16px;
   height: 200px;
 }
-.creator{
-  position: absolute;
-  margin-left: 12px;
 
-}
 .creator{
-  position: absolute;
-  left: 86%;
+  margin-top: 2%;
+  margin-left: 1.8%;
+  margin-bottom: 2%;
   
 }
 .creator-text{
   position: relative;
-  
+  width: fit-content;
+  text-align: end;
   font-size: 32px;
   color: white;
   font-family: 'Mulish', sans-serif;
@@ -248,11 +245,122 @@ body{
 .paragrafo2{
 position: relative;
 text-decoration: 0;
-bottom: 2px;
+right: 10em;
+top: 1em;
 }
 .paragrafo2:hover{
   border-radius: 5px;
   background-color: grey;
   transition: all ease-out 700ms;
  
+}
+
+.div-contact{
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  background-color: #FFB26B;
+  
+}
+.facebook-link{
+  position: relative;
+  width: fit-content;
+  right: 2em;
+  font-size: 24px;
+  text-decoration: 0;
+  display: inline;
+  color: white;
+}.facebook-link::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  width: fit-content;
+  height: 3px;
+  width: 0;
+  background-color: #4267B2;
+  transition: all ease-out 550ms;
+}.facebook-link:hover::after{
+  width: 100%;
+}.facebook-link:hover{
+  transition: all ease-out 550ms;
+  color: #4267B2;
+}
+.etsy-link{
+  position: relative;
+  left: 1em;
+  font-size: 24px;
+  color: white;
+  text-decoration: 0;
+  display: inline;
+}.etsy-link::after{
+  content: "";
+  position: absolute;
+  right: 0;
+  width: fit-content;
+  height: 3px;
+  width: 0;
+  background-color: #D5641C;
+  transition: all ease-out 550ms;
+}.etsy-link:hover::after{
+  width: 100%;
+}
+.etsy-link:hover{
+  transition: all ease-out 550ms;
+  color: #D5641C;
+}
+.contact-h1{
+  margin-top: 4%;
+  position: relative;
+  width: fit-content;
+  
+}
+
+.contact-h1::after{
+  content: "";
+  position: relative;
+  display: block;
+  height: 6px;
+  width: 00%;
+  background-color:#939B62;
+  transition: all ease-out 550ms;
+}
+.contact-h1:hover::after{
+  width: 100%;
+}
+.contact-h1:hover{
+  transition: all ease-out 550ms;
+  color: #939B62;
+}
+.rollo-end{
+  text-align: center;
+  font-size: 18px;
+  color: #FF7B54;
+}.email{
+  color: white;
+  font-size: 20px;
+  width: fit-content;
+  position: relative;
+  text-align: start;
+  margin-left: 2%;
+}.email::after{
+  content: "";
+  position: absolute;
+  display: block;
+  height: 6px;
+  width: 00%;
+  background-color:#F55C47;
+  transition: all ease-out 550ms;
+}
+.email:hover::after{
+  width: 100%;
+}
+.email:hover{
+  transition: all ease-out 550ms;
+  color: #F55C47;
+}
+.email_text{
+  color: #F55C47;
+  position: relative;
+  font-size: 24px;
+  bottom: 8px;
 }
