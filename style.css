@@ -15,12 +15,24 @@ body{
 }
 .carousel-indicators{
   bottom: -1em;
+
 }
 .carousel-item{
  padding: 5% 18%;
+ 
 }
-
-
+.product-1{
+  position: relative;
+  color: white;
+  width: fit-content;
+  font-size: 2rem;
+  text-decoration: 0;
+  top: 1.5rem;
+}
+.product-1:hover{
+  transition: 400ms;
+  color: #FFB26B;
+}
 
 
 .topnav {
@@ -101,6 +113,7 @@ body{
    
    font-family: 'Mulish', sans-serif;
   margin-left: 32px;
+  line-height: 2;
    text-align: start;
    color: white;
    font-size: 24px;
@@ -175,19 +188,21 @@ body{
 #creator-img{
   position: relative;
   border-radius: 16em;
+  margin-top: 16px;
   right: 16px;
   bottom: 16px;
   height: 200px;
 }
 .nicola{
+  position: relative;
+  right: 16px;
   font-family: 'Mulish', sans-serif;
-  text-decoration: 0;
+  line-height: 1.5;
   color: white
 }
 
 .nicola:hover{
   color: white;
-  text-decoration: 0;
   background-color: grey;
 }
 
@@ -249,27 +264,11 @@ body{
   color: #D5641C;
 }
 .contact-h1{
-  margin-top: 4%;
+  text-align: center;
   position: relative;
-  width: fit-content;
+  margin-top: 4%;
 }
 
-.contact-h1::after{
-  content: "";
-  position: relative;
-  display: block;
-  height: 6px;
-  width: 00%;
-  background-color:#939B62;
-  transition: all ease-out 550ms;
-}
-.contact-h1:hover::after{
-  width: 100%;
-}
-.contact-h1:hover{
-  transition: all ease-out 550ms;
-  color: #939B62;
-}
 .rollo-end{
   text-align: center;
   margin-top: 8px;
