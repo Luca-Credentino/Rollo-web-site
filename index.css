@@ -1,9 +1,23 @@
+  /*  HTML ELEMETS  */  
+
 body{
   
     font-family: 'Righteous', cursive;
     background-color: #FF7B54;
     z-index: -1;
 }
+
+h1{
+     
+  font-size: 48px;
+   color: white;
+   position: relative;
+   margin-left: 32px;
+   text-align: start;
+}
+
+  /* Home and navbar  */
+
 #home{
   display: block;
   margin-left: auto;
@@ -13,34 +27,13 @@ body{
   padding-bottom: 3rem;
   width: 100%;
 }
-.carousel-indicators{
-  bottom: -1em;
-
-}
-.carousel-item{
- padding: 5% 18%;
- 
-}
-.product-1{
-  position: relative;
-  color: white;
-  width: fit-content;
-  font-size: 2rem;
-  text-decoration: 0;
-  top: 1.5rem;
-}
-.product-1:hover{
-  transition: 400ms;
-  color: #FFB26B;
-}
-
 
 .topnav {
   position: fixed;
   width: 100%;
     background-color: #FFB26B;
     overflow: hidden;
-    padding: 20px 0;
+    padding: 10px 0;
     margin: 0;
     z-index: 1;
   }
@@ -90,18 +83,9 @@ body{
   }
   #rollo{
     position: absolute;
-     height: 80px;
-     bottom: 1px;
-      
+     height: 70px;
+     bottom: 1px;  
   }
- h1{
-     
-    font-size: 48px;
-     color: white;
-     position: relative;
-     margin-left: 32px;
-     text-align: start;
- }
  @media (max-width: 500px){
    .paragrafo{
      font-size: 14px;
@@ -116,39 +100,34 @@ body{
      bottom: 4px;
    }
 
- }
- .h1-color{
-   color: #FFD56B;
- }
+ }  
 
+  /* Product */ 
+.carousel-indicators{
+  bottom: -1em;
+
+}
+.carousel-item{
+ padding: 5% 18%;
+ 
+}
+.product-1{
+  position: relative;
+  color: white;
+  width: fit-content;
+  font-size: 2rem;
+  text-decoration: 0;
+  top: 1.5rem;
+}
+.product-1:hover{
+  transition: 400ms;
+  color: #FFB26B;
+}
+
+  /* about */
 .about{
   width: fit-content;
-  margin-top: 20em;
 }
- .paragrafo{
-   
-   font-family: 'Mulish', sans-serif;
-  margin-left: 32px;
-  line-height: 2;
-   text-align: start;
-   color: white;
-   font-size: 24px;
-
- }
- #paraph-div{
-   border-radius: 8px;
-   height: fit-content;
-   
- }
- .enoij{
-   margin-bottom: 16px;
-   font-family: 'Righteous', cursive;
-   color: #FFD56B;
-   font-style: unset;
-  font-size: 32px;
- }
-
-
 .about-text{
   position: absolute;
   top: 1px;
@@ -156,7 +135,6 @@ body{
 .about{
  margin-top: 4%;
 }
-
 .about-text{
   position: relative;
   width: fit-content;
@@ -182,8 +160,33 @@ body{
   width: 100%;
 }
 
+
+ .paragrafo{
+  font-family: 'Mulish', sans-serif;
+  margin-left: 2rem;
+  line-height: 2;
+  text-align: start;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10%;
+
+ }
+ #paraph-div{
+   border-radius: 8px;
+   height: fit-content;
+   
+ }
+ .enoij{
+   margin-bottom: 16px;
+   font-family: 'Righteous', cursive;
+   color: #FFD56B;
+   font-style: unset;
+   font-size: 32px;
+ }
+
+
 #product{
-  
+
   font-display: center;
   color: white;
   position: absolute;
@@ -195,11 +198,11 @@ body{
 }
 
 .founder-h1{
+  position: relative;
+  margin: 2% 42%;
   font-family: 'Mulish', sans-serif;
   font-size: 2rem;
-  text-align: center;
-  right: 2rem;
-  padding: 4%;
+  width: fit-content;
 }
 #creator-img{
   position: relative;
@@ -214,7 +217,7 @@ body{
   right: 16px;
   font-family: 'Mulish', sans-serif;
   line-height: 1.5;
-  color: white
+  color: white;
 }
 
 .nicola:hover{
@@ -222,6 +225,8 @@ body{
   background-color: grey;
 }
 
+  /* Contact */
+  
 .div-contact{
   margin-top: 2rem;
   overflow: hidden;
@@ -285,18 +290,13 @@ body{
   margin-top: 4%;
 }
 
-.rollo-end{
-  text-align: center;
-  margin-top: 8px;
-  font-size: 18px;
-  color: #FF7B54;
-}.email{
+.email{
   color: white;
   font-size: 20px;
   width: fit-content;
   position: relative;
   text-align: start;
-  margin-left: 2%;
+  margin: 10% 6%; 
 }.email::after{
   content: "";
   position: absolute;
@@ -318,4 +318,11 @@ body{
   position: relative;
   font-size: 24px;
   bottom: 4px;
+}
+.rollo-end{
+  text-align: center;
+  margin-top: 16px;
+  font-size: 18px;
+  color: #FF7B54;
+  margin-bottom: 10%;
 }
