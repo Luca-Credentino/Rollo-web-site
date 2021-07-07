@@ -198,11 +198,9 @@ h1{
 }
 
 .founder-h1{
-  position: relative;
-  margin: 2% 42%;
+  color: white;
+  margin: 2% ;
   font-family: 'Mulish', sans-serif;
-  font-size: 2rem;
-  width: fit-content;
 }
 #creator-img{
   position: relative;
